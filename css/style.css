@@ -239,7 +239,7 @@ navigation section
         padding-top: 10px;
     }
 .custom-navbar .navbar-toggle .icon-bar {
-        background: #00c6d7;
+        background: #ffa400;
         border-color: transparent;
     }
 @media(min-width:768px){
@@ -380,6 +380,8 @@ about section
 /* ==========================================================================
 team section
 ========================================================================== */
+
+
 #team {
   text-align: center;
 }
@@ -430,6 +432,10 @@ team section
 }
 #team img {
   margin: 0 auto;
+  
+  
+  object-fit: cover;
+
 }
 
 #team .social-icon li a {
@@ -702,3 +708,35 @@ media quires for mobile
     font-size: 12px;
   }
 }
+
+
+
+
+
+
+.img-responsive {
+  
+  height: 350px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  
+
+}
+.galaria {
+  width: 350px;
+  height: 150px;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* .team-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
